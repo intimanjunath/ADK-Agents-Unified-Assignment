@@ -90,7 +90,7 @@ cd ADK-Agents-Unified-Assignment
 
 ## Video Walkthroughs
 
-Each folder contains links to YouTube video walkthroughs explaining the code, demonstrating agent execution : 
+Each folder contains links to YouTube video walkthroughs explaining the code YouTube : https://www.youtube.com/playlist?list=PLh8Ujk1E7vYXQPMRCtQa1Yv0qnxRVY87r
 
 ## References and Resources
 
