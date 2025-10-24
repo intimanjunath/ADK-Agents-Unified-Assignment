@@ -18,28 +18,30 @@ The project explores practical AI agent creation and orchestration, based on Goo
 
 ## Folder Structure
 
-ADK-Agents-Unified-Assignment/
-│
+\begin{verbatim}
 ├── Prototype-Agent/
-│ ├── agent.py
-│ ├── README.md
-│ ├── requirements.txt
-│ └── prototype_agent_colab.ipynb
+│   ├── agent.py
+│   ├── README.md
+│   ├── requirements.txt
+│   └── prototype_agent_colab.ipynb
 │
 ├── Empowering-Agents-With-Tools/
-│ ├── agent_with_tools.py
-│ ├── README.md
-│ ├── requirements.txt
-│ └── tools_agent_colab.ipynb
+│   ├── agent_with_tools.py
+│   ├── README.md
+│   ├── requirements.txt
+│   └── tools_agent_colab.ipynb
 │
 ├── Travel-Agent-MCP/
-│ ├── travel_agent.py
-│ ├── README.md
-│ ├── requirements.txt
-│ ├── travel_agent_colab.ipynb
-│ └── MCP_toolbox_demo/
+│   ├── travel_agent.py
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── travel_agent_colab.ipynb
+│   └── MCP_toolbox_demo/
+│       └── README.md
 │
 └── README.md
+\end{verbatim}
+
 
 
 
