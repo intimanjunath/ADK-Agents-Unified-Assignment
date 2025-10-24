@@ -15,6 +15,29 @@ The project explores practical AI agent creation and orchestration, based on Goo
 - **Build a Travel Agent using MCP Toolbox and ADK:**  
   Develop a domain-specific travel assistant by combining ADK with MCP Toolbox to perform database operations and deliver actionable travel information.
 
+- Vertex AI RAG Agent (ADK)
+A compact Retrieval-Augmented Generation (RAG) agent built with Google’s Agent Development Kit (ADK) on Vertex AI. It lets you query document corpora, manage collections, and ingest new files with minimal setup.
+
+### What you can do
+- Ask questions over your documents (retrieval + grounded answers)
+- List, create, and delete corpora
+- Add data from Google Drive URLs or GCS paths
+- Inspect corpus stats (counts, metadata, created time)
+
+### Prerequisites
+- Google Cloud project with billing enabled
+- Vertex AI API enabled
+- Python 3.9+ and gcloud CLI installed
+- Permissions to create/manage Vertex AI resources
+
+### Using the agent
+- **Query Documents** — ask natural-language questions against a selected corpus; the agent retrieves relevant chunks and composes an answer.
+- **List Corpora** — see available collections.
+- **Create Corpus** — spin up a new, empty corpus with recommended embeddings.
+- **Add New Data** — ingest files from Drive/GCS; auto-creates a corpus when needed.
+- **Get Corpus Info** — view counts, metadata, timestamps.
+- **Delete Corpus** — remove unused corpora (confirmation required).
+
 
 ## Folder Structure
 
@@ -52,21 +75,6 @@ The project explores practical AI agent creation and orchestration, based on Goo
 - Deploy and test agents in cloud environments and local setups.  
 - Gain hands-on experience with multi-agent orchestration and dynamic workflow design.
 
-## ADK-Agents-Unified-Assignment
-This repository contains implementations for key Google AI Agent Development Kit (ADK) codelabs, demonstrating how to build, enhance, and deploy AI agents using ADK and MCP Toolbox for Databases.
-
-Project Description
-The project explores practical AI agent creation and orchestration, based on Google's official codelabs and tutorials:
-
-From Prototypes to Agents with ADK
-Build a conversational AI agent prototype using ADK foundations, including environment setup and basic interactions.
-
-Building AI Agents with ADK: Empowering with Tools
-Enhance agents with tool integrations, workflow orchestration, and advanced capabilities to enable dynamic and context-aware behaviors.
-
-Build a Travel Agent using MCP Toolbox and ADK
-Develop a domain-specific travel assistant by combining ADK with MCP Toolbox to perform database operations and deliver actionable travel information.
-
 ## Technologies Used
 
 - **Google Agent Development Kit (ADK):** Core toolkit for building AI agents.  
@@ -75,6 +83,7 @@ Develop a domain-specific travel assistant by combining ADK with MCP Toolbox to 
 - **Google Colab:** Cloud notebook environment for accessible execution and demonstration.  
 - **Google Cloud Platform:** Optional backend cloud services and infrastructure.  
 - **OpenAI Gemini Models:** Used for natural language understanding and generation where applicable.
+
 
 ## Getting Started
 
