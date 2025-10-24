@@ -19,7 +19,6 @@ The project explores practical AI agent creation and orchestration, based on Goo
 ## Folder Structure
 
 <pre> 
-  
 ├── Prototype-Agent/
 │   ├── agent.py
 │   ├── README.md
@@ -39,7 +38,6 @@ The project explores practical AI agent creation and orchestration, based on Goo
 │   ├── travel_agent_colab.ipynb
 │   └── MCP_toolbox_demo/
 │       └── README.md
-
 </pre>
 
 
