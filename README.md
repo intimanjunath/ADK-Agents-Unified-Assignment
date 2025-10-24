@@ -18,7 +18,7 @@ The project explores practical AI agent creation and orchestration, based on Goo
 
 ## Folder Structure
 
-<pre> ``` 
+<pre> 
   
 ├── Prototype-Agent/
 │   ├── agent.py
@@ -40,7 +40,7 @@ The project explores practical AI agent creation and orchestration, based on Goo
 │   └── MCP_toolbox_demo/
 │       └── README.md
 
-``` </pre>
+</pre>
 
 
 
