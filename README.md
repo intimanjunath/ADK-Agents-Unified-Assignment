@@ -1,3 +1,101 @@
 # ADK-Agents-Unified-Assignment
-Single project implementing 3 ADK codelabs (Prototype → Tools → Travel Agent via MCP/DB) + 1 hackathon app (Data-Viz Agent). All runnable via Colab or locally, with one full video.
-[colabs.zip](https://github.com/user-attachments/files/22964483/colabs.zip)
+
+This repository contains implementations for key Google AI Agent Development Kit (ADK) codelabs, demonstrating how to build, enhance, and deploy AI agents using ADK and MCP Toolbox for Databases.
+
+## Project Description
+
+The project explores practical AI agent creation and orchestration, based on Google's official codelabs and tutorials, showcasing different stages of AI agent development from prototype to advanced tool-empowered assistants.
+
+- **From Prototypes to Agents with ADK:**  
+  Build a conversational AI agent prototype using ADK foundations, including environment setup and basic interactions.
+
+- **Building AI Agents with ADK: Empowering with Tools:**  
+  Enhance agents with tool integrations, workflow orchestration, and advanced capabilities to enable dynamic and context-aware behaviors.
+
+- **Build a Travel Agent using MCP Toolbox and ADK:**  
+  Develop a domain-specific travel assistant by combining ADK with MCP Toolbox to perform database operations and deliver actionable travel information.
+
+
+## Folder Structure
+
+ADK-Agents-Unified-Assignment/
+│
+├── Prototype-Agent/
+│ ├── agent.py
+│ ├── README.md
+│ ├── requirements.txt
+│ └── prototype_agent_colab.ipynb
+│
+├── Empowering-Agents-With-Tools/
+│ ├── agent_with_tools.py
+│ ├── README.md
+│ ├── requirements.txt
+│ └── tools_agent_colab.ipynb
+│
+├── Travel-Agent-MCP/
+│ ├── travel_agent.py
+│ ├── README.md
+│ ├── requirements.txt
+│ ├── travel_agent_colab.ipynb
+│ └── MCP_toolbox_demo/
+│
+└── README.md
+
+
+
+## Learning Outcomes
+
+- Understand foundational concepts of Google ADK for AI agent development.  
+- Build conversational prototypes and progress them into functionally rich agents.  
+- Integrate external tools and APIs to empower AI agents with practical capabilities.  
+- Utilize MCP Toolbox to combine relational database querying with conversational AI.  
+- Deploy and test agents in cloud environments and local setups.  
+- Gain hands-on experience with multi-agent orchestration and dynamic workflow design.
+
+## ADK-Agents-Unified-Assignment
+This repository contains implementations for key Google AI Agent Development Kit (ADK) codelabs, demonstrating how to build, enhance, and deploy AI agents using ADK and MCP Toolbox for Databases.
+
+Project Description
+The project explores practical AI agent creation and orchestration, based on Google's official codelabs and tutorials:
+
+From Prototypes to Agents with ADK
+Build a conversational AI agent prototype using ADK foundations, including environment setup and basic interactions.
+
+Building AI Agents with ADK: Empowering with Tools
+Enhance agents with tool integrations, workflow orchestration, and advanced capabilities to enable dynamic and context-aware behaviors.
+
+Build a Travel Agent using MCP Toolbox and ADK
+Develop a domain-specific travel assistant by combining ADK with MCP Toolbox to perform database operations and deliver actionable travel information.
+
+## Technologies Used
+
+- **Google Agent Development Kit (ADK):** Core toolkit for building AI agents.  
+- **Model Context Protocol (MCP) Toolbox:** For database querying and structured data integration.  
+- **Python 3.8+:** Programming language for all agent implementations.  
+- **Google Colab:** Cloud notebook environment for accessible execution and demonstration.  
+- **Google Cloud Platform:** Optional backend cloud services and infrastructure.  
+- **OpenAI Gemini Models:** Used for natural language understanding and generation where applicable.
+
+## Getting Started
+
+1. Clone this repo:  git clone https://github.com/intimanjunath/ADK-Agents-Unified-Assignment.git
+cd ADK-Agents-Unified-Assignment
+
+
+2. Navigate to each assignment folder and follow the contained README for setup and execution.
+
+3. Use provided Colab notebooks for effortless cloud execution.
+
+4. Configure environment variables as needed in `.env`.
+
+## Video Walkthroughs
+
+Each folder contains links to YouTube video walkthroughs explaining the code, demonstrating agent execution : 
+
+## References and Resources
+
+- [From Prototypes to Agents with ADK (Official Codelab)](https://share.google/SedY3WmkMRCEkJrrA)  
+- [Building AI Agents with ADK: Empowering with Tools (Official Codelab)](https://share.google/2PaSC2sdeHuNqENjq)  
+- [Build a Travel Agent using MCP Toolbox and ADK (Official Codelab)](https://share.google/aTibSpbyEDvVPhIqD)  
+- [Google Agent Development Kit Documentation](https://google.github.io/adk-docs/)
+
